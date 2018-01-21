@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title> Target finder </title>
+</head>
+
+
+<body>
+
+<body background="img/backgroundps4.jpg";> }
+
+<body bgcolor=#66CDAA text="#FFFFFF"></body> 
+<h1><center>Web Browser Target Finder</h1></center><br><br><br><br><br><br><br><br><br><br>
+
+<div align="center" id="target"></div>
+
+<p style="text-align: center;"><input type="button" id="load-check" onClick="initCheck();document.getElementById('load-check').disabled = 'disabled'" value="Get Target information" /></p>
+
+
+<script>
+function initCheck()
+{
+var txt = "";
+
+txt += "<h2><p>Browser Name: " + navigator.appName + "</p>";
+txt += "<p>Browser Version: " + navigator.appVersion + "</p>";
+txt += "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
+txt += "<p>Browser Language: " + navigator.language + "</p>";
+txt += "<p>Browser Online: " + navigator.onLine + "</p>";
+txt += "<p>Platform: " + navigator.platform + "</p>";
+txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
+
+document.getElementById("target").innerHTML = txt;
+}
+
+
+
+</script>
+
+
+</body>
+</html>
