@@ -3,7 +3,7 @@ Just a webpage to find information on your webbrowser.
 
 Know your target is primordial to attack them
 
-Run you local server and go to this page (background actually optimised for ps4)
+Run https://red-j.github.io/User-agent-Finder/ or run your local server and go to this page (background actually optimised for ps4)
 
 Sample of result:
 
